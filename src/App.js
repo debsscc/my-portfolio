@@ -7,7 +7,6 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import GlobalStyle from './styles/GlobalStyle';
 
-
 const App = () => {
   return (
     <>
