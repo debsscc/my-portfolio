@@ -81,10 +81,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -112,24 +108,60 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  // {
+  //   name: "Next.js",
+  //   icon: nextjs, 
+  // },
+  // {
+  //   name: "Godot",
+  //   icon: godot,
+  // },
+  // {
+  //   name: "Express.js",
+  //   icon: expressjs,
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
+  // { name: "SQL",
+  //   icon: sql,
+  // },
+  // {
+  // name: "Prisma ORM",
+  // icon: prisma,
+  // },
+// {
+//   name: "Vite",
+//   icon: vite,
+// },
+// {
+//   name: "Photoshop",
+//   icon: photoshop,
+// },
+// {
+//   name: "Illustrator",
+//   icon: illustrator,
+// },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Backend Developer",
+    company_name: "Minha Feira",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#4CAF50",
+    date: "Março 2024 - Junho 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvimento de APIs RESTful utilizando Node.js e Express.",
+      "Integração com Banco de dados relacional PostgreSQL.",
+      "Implementação de autenticação e autorização segura com JWT e criptografia de senhas.",
+      "Teste de APIs com Postman e integração contínua com GitHub Actions.",
+      "Versionamento de código com Git e deploy no Vercel.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -141,98 +173,74 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+    {
+      title: "Game Developer",
+      company_name: "Takedown Techno",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jan 2022 - Jan 2023",
+      points: [
+        "Desenvolvimento de um jogo 2D pixel art na engine Godot, utilizando GDScript.",
+        "Implementação de shaders personalizados, como iluminação dinâmica e transições estilizadas.",,
+        "Criação de sistema de combate com detecção de colisão, animações fluidas e efeitos de câmera para impacto.",
+        "Aprimoramento da experiência do jogador (UX) com feedbacks visuais e sonoros, ajustes de dificuldade e curvas de aprendizado progressivas.",
+      ],
+    },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Designer",
+    company_name: "SAJIC - UniSENAC",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Criação de identidade visual completa para projetos digitais, incluindo tipografia, cores, logotipo e iconografia.",
+      "Desenvolvimento de peças gráficas para mídias sociais, apresentações institucionais e portfólio de projetos.",
+      "Implementação gráfica da identidade visual em camisetas, t-shirts e outros produtos fisicos.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tormenta20",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Plataforma web interativa para criação personalizada de fichas de personagem do RPG Tormenta20, integrando práticas de banco de dados, POO, web responsiva e engenharia de software.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Bilhalv/T20-Sheet",
   },
   {
-    name: "Job IT",
+    name: "Minha Feira",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "expo",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+            {
+        name: "Illustrator",
         color: "pink-text-gradient",
       },
     ],
@@ -240,26 +248,97 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Nokori",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Nokori é um jogo 2D feito na Godot, focado em narrativa visual sem diálogos. Inspirado na estrutura narrativa Kishōtenketsu, usa símbolos e interações sutis para contar a história de forma imersiva e interpretativa.",
     tags: [
       {
-        name: "nextjs",
+        name: "aseprite",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "gdscript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "godot",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://madsilvax.itch.io/nokori",
+  },
+  {
+    name: "Herzog",
+    description:
+      "Jogo desenvolvido na engine Godot, com artes 2D e 3D. Em um mundo pós-apocalíptico onde a água desapareceu, acompanhamos Herzog em uma jornada pelo deserto até descobrir o destino dos oceanos.",
+    tags: [
+      {
+        name: "3d",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "InDesign",
+        color: "green-text-gradient",
+      },
+      {
+        name: "godot",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "blender",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Illustrator",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://phscardona.itch.io/herzog-echosoftheocean",
+  },
+    {
+    name: "Visão Computacional para animais",
+    description:
+      "Sistema de visão computacional com detecção automática de animais em vídeos ao vivo usando SSD MobileNet. Captura e salva imagens a cada 30 segundos, evitando duplicações. Ideal para monitoramento de vida selvagem.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openCV",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/DiegoNachtigall/visao_computacional_IA",
+  },
+      {
+    name: "BlockBuster Matrix",
+    description:
+      "Aplicação web inspirada em locadoras, criada com React e Flowbite. Exibe uma interface para explorar filmes, com layout responsivo e estilização via Tailwind CSS.",
+    tags: [
+      {
+        name: "flowbite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/debsscc/BlockBusterMatrix-FRONT-",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
