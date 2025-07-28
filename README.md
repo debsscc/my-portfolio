@@ -10,65 +10,66 @@
                                                                        
 ```
 
-<h2 style="color:#39ff14;">// Portfólio - Debs Carvalho</h2>
-<img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=39ff14" />
-<img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=39ff14" />
-<img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=39ff14" />
+<h1 style="margin-top: 0; margin-bottom: 8px; font-weight: 900; font-size: 2.8rem; color:#39ff14; text-shadow: 0 0 8px #00ff00;">
+  // Portfólio - Debs Carvalho
+</h1>
 
-> _"Você entrou no sistema. Sinta-se livre para explorar o código."_
+<div style="display: flex; justify-content: center; gap: 12px; margin-bottom: 24px;">
+  <img src="https://img.shields.io/badge/React_JS-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Three_JS-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</div>
+
+<em style="color:#00ff00; font-size: 1.1rem; user-select:none; margin-bottom: 36px; display: block;">
+  Você entrou no sistema. Sinta-se livre para explorar o código.
+</em>
 
 </div>
 
 ---
 
-## 🟩 sumário
+<div style="max-width: 800px; margin: auto; font-family: 'Courier New', monospace; color: #39ff14;">
 
-- [👾 Introdução](#introdução)
-- [⚙️ Stack Hacker](#stack-hacker)
-- [💾 Features](#features)
-- [🚦 Instalação Rápida](#instalação-rápida)
-- [🦾 Snippets](#snippets)
-- [🔗 Links](#links)
-- [🚀 Mais](#mais)
+<h2 style="font-size: 1.8rem; border-bottom: 3px solid #00ff00; padding-bottom: 6px; margin-bottom: 16px;">
+  [★] Introdução
+</h2>
 
----
+<p style="font-size: 1.1rem; line-height: 1.5; margin-bottom: 32px;">
+  Bem-vindo ao meu portfólio desenvolvido com React, Three.js e animações 3D interativas!<br>
+  Prepare-se para me conhecer em uma experiência que mistura tecnologia, design e um toque underground.
+</p>
 
-## 👾 Introdução
+<h2 style="font-size: 1.8rem; border-bottom: 3px solid #00ff00; padding-bottom: 6px; margin-bottom: 20px;">
+  [⚙]  Stack
+</h2>
 
-Bem-vindo ao meu portfólio! Aqui você encontra animações, modelos 3D e um terminal de contato direto comigo. Sinta-se livre para explorar o código, hackear ideias e enviar sua mensagem secreta.
+<pre style="background: #0a0a0a; padding: 16px 24px; border-radius: 12px; border: 2px solid #00ff00; font-size: 1.05rem; max-width: 360px; margin-bottom: 36px; box-shadow: 0 0 12px #00ff00;">
+&gt;_ React.js
+&gt;_ Three.js
+&gt;_ React Three Fiber
+&gt;_ Drei (utils 3D)
+&gt;_ EmailJS
+&gt;_ Tailwind CSS
+&gt;_ Vite
+</pre>
 
----
+<h2 style="font-size: 1.8rem; border-bottom: 3px solid #00ff00; padding-bottom: 6px; margin-bottom: 16px;">
+  [⇨] Links
+</h2>
 
-## ⚙️ Stack Hacker
+<ul style="font-size: 1.05rem; list-style: none; padding-left: 0; margin-bottom: 40px;">
+  <li style="margin-bottom: 12px;">
+    <a href="https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z" 
+       style="color: #00ff00; text-decoration: none; border-bottom: 1px dotted #00ff00;">
+      📁 Modelos e Assets 3D
+    </a>
+  </li>
+  <li>
+    <a href="https://www.emailjs.com/" 
+       style="color: #00ff00; text-decoration: none; border-bottom: 1px dotted #00ff00;">
+      ✉️ EmailJS
+    </a>
+  </li>
+</ul>
 
-```bash
->_ React.js
->_ Three.js
->_ React Three Fiber
->_ React Three Drei
->_ EmailJS
->_ Vite
->_ Tailwind CSS
-```
-
----
-
-## 💾 Features
-
-- [x] **Seção Hero 3D customizável**
-- [x] **Experiência interativa com animações**
-- [x] **Skills em 3D**
-- [x] **Projetos e depoimentos animados**
-- [x] **Contato com terminal hacker + modelo 3D da Terra**
-- [x] **Estrelas 3D no fundo**
-- [x] **Design responsivo**
-- [x] **Código modular e reutilizável**
-
----
-
-## 🔗 Links
-
-- [Modelos e Assets 3D](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
-- [EmailJS](https://www.emailjs.com/)
-
----
+</div>
