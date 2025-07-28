@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black p-8 rounded-2xl border-2 border-green-400 shadow-lg font-mono'
       >
         <p className="text-green-400 font-mono text-lg mb-2"># Terminal de Contato</p>
-        <h3 className="text-green-500 font-mono text-3xl mb-6">&gt;_ Fale com a Debs</h3>
+        <h3 className="text-green-500 font-mono text-3xl mb-6">&gt;_ Fale comigo</h3>
 
         <form
           ref={formRef}
@@ -118,7 +118,7 @@ const Contact = () => {
             type='submit'
             className='bg-green-700 hover:bg-green-500 py-3 px-8 rounded-xl outline-none w-fit text-black font-bold font-mono shadow-md shadow-green-400 transition-all'
           >
-            {loading ? "Enviando..." : "Enviar // hack!"}
+            {loading ? "Enviando..." : "Enviar //"}
           </button>
         </form>
       </motion.div>
