@@ -64,13 +64,9 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`} style={{fontFamily: "monospace" }}>
-          Áreas de Atuação
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`} style={{ fontFamily: "monospace" }}>
-          Projetos em destaque
-        </h2>
+      <motion.div variants={textVariant()} className="text-center">
+        <p className={styles.sectionSubText}>Áreas de Atuação</p>
+        <h2 className={styles.sectionHeadText}>Projetos em destaque</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>

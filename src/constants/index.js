@@ -162,7 +162,7 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
-    company_name: "Tesla",
+    company_name: "LeCafé",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -321,7 +321,7 @@ const projects = [
       {
     name: "BlockBuster Matrix",
     description:
-      "Aplicação web inspirada em locadoras, criada com React e Flowbite. Exibe uma interface para explorar filmes, com layout responsivo e estilização via Tailwind CSS.",
+      "Aplicação web, inspirada em plataformas de locação de filmes, desenvolvida com React e Flowbite. A interface intuitiva proporciona uma experiência agradável para explorar títulos do cinema, combinando um layout responsivo com uma estilização contemporânea baseada em Tailwind CSS.",
     tags: [
       {
         name: "flowbite",

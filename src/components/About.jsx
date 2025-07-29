@@ -85,10 +85,10 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} >
         <TerminalHeader />
         <p className={styles.sectionSubText}>Introdução</p>
-        <h2 className={styles.sectionHeadText}>Visão Geral.</h2>
+        <h2 className={styles.sectionHeadText}>Visão Geral</h2>
       </motion.div>
 
       <motion.p
