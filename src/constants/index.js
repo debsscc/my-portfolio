@@ -8,7 +8,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -19,10 +18,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  herzog,
+  nokori,
+  visao_computacional,
+  carrent,
+  blockbuster,
 } from "../assets";
 
 export const navLinks = [
@@ -244,7 +245,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: blockbuster,
     source_code_link: "https://github.com/",
   },
   {
@@ -265,7 +266,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: nokori,
     source_code_link: "https://madsilvax.itch.io/nokori",
   },
   {
@@ -294,7 +295,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: herzog,
     source_code_link: "https://phscardona.itch.io/herzog-echosoftheocean",
   },
     {
@@ -315,7 +316,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: visao_computacional,
     source_code_link: "https://github.com/DiegoNachtigall/visao_computacional_IA",
   },
       {
@@ -336,7 +337,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: blockbuster,
     source_code_link: "https://github.com/debsscc/BlockBusterMatrix-FRONT-",
   },
 ];
