@@ -52,7 +52,7 @@ const TerminalHeader = () => (
   </>
 );
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, link}) => (
   <Tilt
     options={{
       max: 45,
@@ -65,7 +65,10 @@ const ServiceCard = ({ index, title, icon }) => (
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full border-2 border-green-400 p-[1px] rounded-[20px] shadow-lg shadow-green-400/20'
     >
-      <div
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
         className='bg-black rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col group hover:bg-gray-900 transition-all duration-300'
       >
         <img
@@ -77,7 +80,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <h3 className='text-green-400 font-mono text-[18px] font-bold text-center tracking-wider'>
           &gt;_{title}
         </h3>
-      </div>
+      </a>
     </motion.div>
   </Tilt>
 );

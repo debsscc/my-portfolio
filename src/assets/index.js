@@ -6,6 +6,14 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import tormenta from "./tormenta.png";
+import blockbuster from "./blockbuster.png";
+import nokori from "./nokori.jpg";
+import herzog from "./herzog.png";
+import visaoComputacional from "./visao_computacional.jpg";
+import minhaFeira from "./MinhaFeira.png";
+import behance from "./behance.png";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -16,24 +24,15 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-
+import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import nokori from "./nokori.png";
-import herzog from "./herzog.png";
-import visao_computacional from "./visao_computacional.jpg";
-import tormenta from "./tormenta.png";
-import blockbuster from "./blockbuster.png";
+import minhaFeiralogo from "./company/minhaFeira_logo.png";
+import SAJICLogo from "./company/SAJICLogo.png";
+import takedownLogo from "./company/takedownLogo.svg";
+import lecafe from "./company/lecafe.png";
 
 export {
   logo,
@@ -53,19 +52,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  nokori,
-  herzog,
-  visao_computacional,
   tormenta,
   blockbuster,
-  carrent,
-  jobit,
-  tripguide
+  nokori,
+  herzog,
+  visaoComputacional,
+  minhaFeira,
+  minhaFeiralogo,
+  SAJICLogo,
+  takedownLogo,
+  lecafe,
+  behance,
 };

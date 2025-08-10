@@ -14,16 +14,17 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   threejs,
-  herzog,
-  nokori,
-  visao_computacional,
-  carrent,
   blockbuster,
+  nokori,
+  herzog,
+  visaoComputacional,
+  tormenta,
+  minhaFeira,
+  minhaFeiralogo,
+  SAJICLogo,
+  takedownLogo,
+  lecafe
 } from "../assets";
 
 export const navLinks = [
@@ -37,7 +38,7 @@ export const navLinks = [
   },
   {
     id: "contact",
-    title: "Contato",
+    title: "Contatos",
   },
 ];
 
@@ -45,18 +46,22 @@ const services = [
   {
     title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
+    link: "https://github.com/debsscc"
   },
   {
     title: "Game Developer",
     icon: creator,
+    link: "https://debs-scc.itch.io/"
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+    link: "https://github.com/debsscc"
   },
   {
     title: "Designer",
     icon: mobile,
+    link: "https://www.behance.net/dboracarvalho10"
   },
 ];
 
@@ -150,8 +155,8 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "Minha Feira",
-    icon: starbucks,
-    iconBg: "#4CAF50",
+    icon: minhaFeiralogo,
+    iconBg: "#ffffffff",
     date: "Março 2024 - Junho 2024",
     points: [
       "Desenvolvimento de APIs RESTful utilizando Node.js e Express.",
@@ -164,8 +169,8 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "LeCafé",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: lecafe,
+    iconBg: "#f1e8e7ff",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -177,12 +182,12 @@ const experiences = [
     {
       title: "Game Developer",
       company_name: "Takedown Techno",
-      icon: shopify,
+      icon: takedownLogo,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Desenvolvimento de um jogo 2D pixel art na engine Godot, utilizando GDScript.",
-        "Implementação de shaders personalizados, como iluminação dinâmica e transições estilizadas.",,
+        "Implementação de shaders personalizados, como iluminação dinâmica e transições estilizadas.",
         "Criação de sistema de combate com detecção de colisão, animações fluidas e efeitos de câmera para impacto.",
         "Aprimoramento da experiência do jogador (UX) com feedbacks visuais e sonoros, ajustes de dificuldade e curvas de aprendizado progressivas.",
       ],
@@ -190,7 +195,7 @@ const experiences = [
   {
     title: "Designer",
     company_name: "SAJIC - UniSENAC",
-    icon: meta,
+    icon: SAJICLogo,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -213,20 +218,20 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwindCSS",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: tormenta,
     source_code_link: "https://github.com/Bilhalv/T20-Sheet",
   },
   {
     name: "Minha Feira",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Desenvolvimento de APIs REST com Node.js, Express e PostgreSQL no backend do app Minha Feira. Usei Postman para testes, garantindo segurança e performance na gestão de dados das feiras.",
     tags: [
       {
         name: "expo",
@@ -234,18 +239,18 @@ const projects = [
       },
       {
         name: "nextjs",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "postgresql",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
             {
         name: "Illustrator",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: blockbuster,
+    image: minhaFeira,
     source_code_link: "https://github.com/",
   },
   {
@@ -259,11 +264,11 @@ const projects = [
       },
       {
         name: "gdscript",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "godot",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: nokori,
@@ -280,19 +285,19 @@ const projects = [
       },
       {
         name: "InDesign",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "godot",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "blender",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "Illustrator",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: herzog,
@@ -309,14 +314,14 @@ const projects = [
       },
       {
         name: "IA",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "openCV",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
-    image: visao_computacional,
+    image: visaoComputacional,
     source_code_link: "https://github.com/DiegoNachtigall/visao_computacional_IA",
   },
       {
@@ -330,11 +335,11 @@ const projects = [
       },
       {
         name: "tailwindCSS",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "react",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: blockbuster,
